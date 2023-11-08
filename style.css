@@ -1,0 +1,25 @@
+/* Copybutton css */
+.btn {
+	background-color: #F6F3EA !important;
+	border: none !important;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+	font-size: 10px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip.active .tooltiptext {
+  visibility: visible;
+}
